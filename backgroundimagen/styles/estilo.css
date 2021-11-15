@@ -1,0 +1,37 @@
+body{
+    background-image:url('../images/gradient.jpg');
+}
+
+h1{
+    color: rgb(248, 192, 239);
+    text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
+    text-align: center;
+    padding-top: 420px;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    border: 2px solid rgb(25, 0, 255);
+    border-radius: 5px;
+    margin-left: 450px;
+}
+
+#imagen-cambiante {
+    background: url('../images/lola.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
+#imagen-cambiante:hover {
+    background: url('../images/lola2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
